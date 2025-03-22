@@ -57,7 +57,7 @@ public class MxNmattrix {
 			}
 
 			// bottom -> top (right side 1st column)
-			if (right > left) {
+			if (right >= left) {
 				bottom--;
 				for (int i = bottom; i >= top; i--) {
 					System.out.print(twoDimenMatrix[i][left] + " ");
